@@ -2,12 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(npx create-next-app@latest . --yes --typescript --tailwind --app --src-dir --import-alias \"@/*\")",
-      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx create-next-app@latest . --yes --typescript --tailwind --app --src-dir --import-alias \"@/*\")",
       "Bash(npm config *)",
       "Bash(npm install *)",
-      "Bash(git init *)",
-      "Bash(git remote *)",
-      "Bash(git add *)"
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Juan Carlos R\\\\raicode-proyectos\\\\rai-workshop\\\\src\\\\utils\\\\supabase\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Juan Carlos R\\\\raicode-proyectos\\\\rai-workshop\\\\src\\\\utils\\\\supabase\")"
     ]
   }
 }
